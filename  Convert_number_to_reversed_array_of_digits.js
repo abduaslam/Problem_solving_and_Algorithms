@@ -1,0 +1,8 @@
+//Given a random non-negative number,
+//  you have to return the digits of this number within an array in reverse order.
+
+function digitize(n) {
+    let result=`${n}`;
+ return result.split('').map(Number).reverse();
+}
+console.log(digitize(23451));
