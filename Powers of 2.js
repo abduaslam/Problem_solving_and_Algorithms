@@ -5,10 +5,20 @@
 // n = 1  ==> [1, 2]     # [2^0, 2^1]
 // n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 function powersOfTwo(n){
-    let array=[];
-    for(let i=0;i<=n;i++){
-        array.push(Math.pow(2,i))
-    }
-    return array
+ let result=[];
+ for(let i=0;i<=n;i++){
+    result.push(Math.pow(2,i))
+ }
+ return result
 }
 console.log(powersOfTwo(2))
+
+
+// Another Example
+// function powersOfTwo(n){
+//   let arr = [];
+//   for(let i = 0; i <= n; i++) {
+//     arr.push(2 ** i);
+//   }
+//   return arr
+// }
