@@ -5,13 +5,11 @@
 // Return the results as an array or list ( depending on language ).
 
 
-function countBy(x, n) {
-  let z = [];
-  for(let i=1;i<=n ;i++){
-    z.push(x*i)
-    
+function countBy(x,n){
+  let z=[];
+  for(let i=1;i<n;i++){
+    z.push(x*i);
   }
-
-  return z;
+  return z
 }
-console.log(countBy(2,5))
+console.log(countBy(3,10))
