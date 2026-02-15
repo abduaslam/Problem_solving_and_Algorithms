@@ -17,6 +17,7 @@
 //  4  =>  true
 // 25  =>  true
 // 26  =>  false
-var isSquare = function(n){
- return Number.isInteger(Math.sqrt(n))
+function squarOf(number){
+    return Number.isInteger(Math.sqrt(number))
 }
+console.log(squarOf(4))
